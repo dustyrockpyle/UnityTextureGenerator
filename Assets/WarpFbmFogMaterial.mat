@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WarpFbmFogMaterial
+  m_Shader: {fileID: 4800000, guid: 7a7886142a3dccbc79eb8515e40df604, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _Gain: 0.259
+    - _Gain2: 0.3
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Interpolate: -10000000
+    - _Inverse: 0
+    - _Jitter: 1
+    - _Lacunarity: 3
+    - _Lacunarity2: 2
+    - _MetaGain: 2
+    - _MetaInterpolate: 0
+    - _MetaJitter: 1
+    - _MetaLacunarity: 2
+    - _MetaOctaveFactor: 1
+    - _MetaOctaves: 1
+    - _MetaScaleX: 15
+    - _MetaScaleY: 15
+    - _MetaScroll1: 0
+    - _MetaScroll2: 0.0282
+    - _MetaSeed: 28
+    - _MetaShift: 0
+    - _MetaTimeShift: 0
+    - _MetaWidthX: 0.192
+    - _MetaWidthY: 0.063
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _OctaveFactor: -0.627
+    - _OctaveFactor2: -1
+    - _Octaves: 4
+    - _Octaves2: 2
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _RadialDistance: 1
+    - _RadialFactor: 0
+    - _ReceiveShadows: 1
+    - _ScaleX: 8
+    - _ScaleX2: 10
+    - _ScaleY: 8
+    - _ScaleY2: 10
+    - _Scroll1: 0.222
+    - _Scroll2: 0.231
+    - _Scroll3: 0.406
+    - _Scroll4: -0.447
+    - _Seed: 681
+    - _Seed2: 0
+    - _Shift: 0
+    - _Slopeness: 0
+    - _Slopeness2: 1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _TimeShift: 0
+    - _ValueThreshold: 3
+    - _ValueThreshold2: 0
+    - _Warp: 0.079
+    - _WarpScale: 2.72
+    - _WarpSmudge: 1
+    - _Width: 0.367
+    - _WidthX: 0.016
+    - _WidthY: 0.042
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0.67217356, b: 0.15686274, a: 1}
+    - _Color2: {r: 0, g: 0.5225255, b: 0.6666667, a: 1}
+    - _Color3: {r: 0.08018869, g: 0.5343215, b: 1, a: 1}
+    - _Color4: {r: 0.83, g: 0.8868316, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &3986995612126436267
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
